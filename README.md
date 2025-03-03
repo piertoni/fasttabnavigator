@@ -14,7 +14,7 @@ To integrate FastTabNavigator with LazyVim, add the following configuration:
 ```lua
   {
     "piertoni/fasttabnavigator",
-    config = function(_, opts)
+    config = function()
       require('fasttabnavigator')
     end,
     keys = {
